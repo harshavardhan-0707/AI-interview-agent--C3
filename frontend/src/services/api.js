@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://ai-interview-agent-c3-backend.onrender.com/api';
 
 /**
  * Communicates with the mandatory POST /api/interview endpoint.
