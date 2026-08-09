@@ -1,0 +1,133 @@
+{
+  "cohort": {
+    "title": "AI Engineering Cohort Curriculum",
+    "durationDays": 31,
+    "modules": [
+      {
+        "id": 1,
+        "name": "Environment & Tooling",
+        "days": [1, 2, 3, 4],
+        "topics": ["Python 3.11", "Virtual Environments", "Git & GitHub", "Docker Basics", "CLI Tooling"],
+        "missions": ["m1_env_setup", "m2_git_workflow", "m3_docker_basics"]
+      },
+      {
+        "id": 2,
+        "name": "Data Foundations",
+        "days": [5, 6, 7, 8],
+        "topics": ["Data Wrangling", "Pandas & Numpy", "Data Cleaning", "Data Validation", "JSON & Structured Data"],
+        "missions": ["m4_pandas_wrangling", "m5_data_cleaning", "m6_json_parsing"]
+      },
+      {
+        "id": 3,
+        "name": "Embeddings & Vector Search",
+        "days": [9, 10, 11, 12],
+        "topics": ["Vector Embeddings", "Cosine Similarity", "Distance Metrics", "Vector Databases (Chroma/FAISS/Qdrant)", "RAG Foundations"],
+        "missions": ["m7_embeddings_calc", "m8_vector_db_setup", "m9_rag_retrieval_basic"]
+      },
+      {
+        "id": 4,
+        "name": "LLM Core, Prompting & Fine-Tuning",
+        "days": [13, 14, 15, 16, 17],
+        "topics": ["Prompt Engineering", "Chain-of-Thought", "System Prompts", "OpenAI / Gemini API Integration", "LoRA & Fine-Tuning Basics"],
+        "missions": ["m10_prompt_crafting", "m11_llm_api_integration", "m12_cot_reasoning", "m13_finetuning_prep"]
+      },
+      {
+        "id": 5,
+        "name": "Chatbot Application Build",
+        "days": [18, 19, 20, 21],
+        "topics": ["Streamlit / React Frontends", "FastAPI Backends", "Stateful Chat History", "Streaming Responses", "Context Windows"],
+        "missions": ["m14_fastapi_backend", "m15_chat_history_state", "m16_streaming_ui"]
+      },
+      {
+        "id": 6,
+        "name": "Agentic AI & MCP",
+        "days": [22, 23, 24, 25],
+        "topics": ["ReAct Pattern", "Tool Calling / Function Calling", "Model Context Protocol (MCP)", "Multi-Agent Workflows", "LangGraph / Autogen"],
+        "missions": ["m17_tool_calling", "m18_react_agent", "m19_mcp_server", "m20_multi_agent_system"]
+      },
+      {
+        "id": 7,
+        "name": "Evaluation, Security & Deployment",
+        "days": [26, 27, 28, 29],
+        "topics": ["RAG Evaluation (Ragas)", "Prompt Injection Security", "Guardrails", "Latency & Token Optimization", "Docker Cloud Deployment"],
+        "missions": ["m21_ragas_eval", "m22_prompt_security", "m23_docker_cloud_deploy"]
+      },
+      {
+        "id": 8,
+        "name": "Production & Capstone",
+        "days": [30, 31],
+        "topics": ["Production Monitoring", "Observability (LangSmith)", "CI/CD Pipelines", "Capstone Presentation"],
+        "missions": ["m24_observability_setup", "m25_capstone_project"]
+      }
+    ]
+  },
+  "sampleCandidates": [
+    {
+      "id": "cand-101",
+      "name": "Alex Chen",
+      "jobRole": "Senior AI Engineer",
+      "yearsExperience": 5,
+      "education": "M.S. in Computer Science",
+      "status": "active",
+      "completedMissions": ["m1_env_setup", "m2_git_workflow", "m3_docker_basics", "m4_pandas_wrangling", "m7_embeddings_calc", "m8_vector_db_setup", "m9_rag_retrieval_basic", "m10_prompt_crafting", "m11_llm_api_integration", "m14_fastapi_backend", "m17_tool_calling", "m18_react_agent", "m19_mcp_server", "m21_ragas_eval", "m23_docker_cloud_deploy"],
+      "failedMissions": ["m22_prompt_security"],
+      "skippedMissions": ["m5_data_cleaning", "m6_json_parsing"],
+      "missionAttempts": {
+        "m1_env_setup": 1,
+        "m7_embeddings_calc": 1,
+        "m8_vector_db_setup": 1,
+        "m17_tool_calling": 1,
+        "m19_mcp_server": 1,
+        "m22_prompt_security": 3
+      },
+      "signals": {
+        "commitDays": 28,
+        "missionsCompleted": 15,
+        "missionsFirstTry": 13
+      }
+    },
+    {
+      "id": "cand-102",
+      "name": "Priya Sharma",
+      "jobRole": "Junior Data Scientist",
+      "yearsExperience": 1,
+      "education": "B.S. in Statistics",
+      "status": "active",
+      "completedMissions": ["m1_env_setup", "m2_git_workflow", "m4_pandas_wrangling", "m5_data_cleaning", "m6_json_parsing", "m7_embeddings_calc", "m10_prompt_crafting"],
+      "failedMissions": ["m8_vector_db_setup", "m9_rag_retrieval_basic"],
+      "skippedMissions": ["m3_docker_basics"],
+      "missionAttempts": {
+        "m1_env_setup": 1,
+        "m4_pandas_wrangling": 1,
+        "m8_vector_db_setup": 2,
+        "m9_rag_retrieval_basic": 2
+      },
+      "signals": {
+        "commitDays": 18,
+        "missionsCompleted": 7,
+        "missionsFirstTry": 5
+      }
+    },
+    {
+      "id": "cand-103",
+      "name": "Marcus Vance",
+      "jobRole": "Full Stack Software Engineer",
+      "yearsExperience": 3,
+      "education": "B.S. in Software Engineering",
+      "status": "active",
+      "completedMissions": ["m1_env_setup", "m2_git_workflow", "m3_docker_basics", "m4_pandas_wrangling", "m10_prompt_crafting", "m11_llm_api_integration", "m14_fastapi_backend", "m15_chat_history_state", "m16_streaming_ui"],
+      "failedMissions": ["m17_tool_calling"],
+      "skippedMissions": ["m7_embeddings_calc", "m8_vector_db_setup"],
+      "missionAttempts": {
+        "m14_fastapi_backend": 1,
+        "m15_chat_history_state": 1,
+        "m17_tool_calling": 2
+      },
+      "signals": {
+        "commitDays": 22,
+        "missionsCompleted": 9,
+        "missionsFirstTry": 8
+      }
+    }
+  ]
+}
